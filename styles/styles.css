@@ -36,6 +36,7 @@ h2{
 
 .h2_musica{
   width: 100%;
+  font-size: 20px;
   
 }
 
@@ -64,7 +65,7 @@ p{
 
 
 .foto{
-    width: 400px;
+    min-width: 350px;
     height: auto;
 }
 
