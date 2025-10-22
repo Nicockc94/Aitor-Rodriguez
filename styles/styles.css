@@ -34,8 +34,13 @@ h2{
     color: white;
 }
 
+.h2_musica{
+  width: 100%;
+  
+}
+
 p{
-    line-height: 40px;
+    line-height: 30px;
 
 }
 
@@ -59,7 +64,7 @@ p{
 
 
 .foto{
-    width: 500px;
+    width: 400px;
     height: auto;
 }
 
@@ -116,6 +121,7 @@ p{
 
 .h2_Sets{
   text-shadow: 2px 2px 5px blue;
+  margin-top: 50px;
 
 }
 
@@ -159,6 +165,10 @@ p{
 
 }
 
+.carouselExampleFade{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 /* Estilos para las imágenes del carrusel */
 .carrusel_img_1 {
@@ -183,6 +193,7 @@ a:link {
   color: inherit; /* color de los enlaces no visitados */
   text-decoration: none;
 }
+
 
 
 /*********************Redes******************************************************************************/
@@ -420,6 +431,7 @@ footer {
 
 span{
    text-shadow: 2px 2px 5px blue;
+   width: 100%;
 }
 
 
@@ -431,6 +443,6 @@ span{
   margin-top: 100px;
     font-family: "BBH Sans Bartle", sans-serif;
     text-align: center;
-    margin: 20px 0;
+    
       
 }
