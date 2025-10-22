@@ -31,6 +31,7 @@ body{
 h2{
     font-family: "BBH Sans Bartle", sans-serif;
     font-style: normal;
+    color: white;
 }
 
 p{
@@ -219,7 +220,6 @@ a:link {
     text-align: center;
     text-shadow: 2px 2px 5px blue;
     margin: 20px 0;
-    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -227,6 +227,12 @@ a:link {
     height: 100px;
 }
 
+#redes_ingles{
+    font-family: "BBH Sans Bartle", sans-serif;
+    text-align: center;
+    margin: 20px 0;
+    text-shadow: 2px 2px 5px blue;  
+}
 
 /* A partir de tablets o escritorio */
 @media (min-width: 768px) {
@@ -240,7 +246,7 @@ a:link {
     width: calc(33.333% - 10px); /* tres fotos por fila */
     aspect-ratio: 1 / 1;
   }
-}
+
 
 .fotos_bio div:last-child img {
   object-position: center top; /* enfoca la parte superior */
@@ -248,6 +254,27 @@ a:link {
 
 
 
+
+
+.redes_lista{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.lista_a{
+  font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    
+}
+
+
+
+}
 .video_redes{
     width: 100%;
     max-width: 600px;
@@ -386,4 +413,9 @@ footer {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
+}
+
+
+span{
+   text-shadow: 2px 2px 5px blue;
 }
